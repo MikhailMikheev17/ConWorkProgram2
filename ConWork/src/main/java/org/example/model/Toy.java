@@ -3,6 +3,8 @@ package org.example.model;
 /*
  Класс игрушка
  */
+
+
 public class Toy implements Comparable<Toy> {
 
     private String name;
@@ -16,30 +18,36 @@ public class Toy implements Comparable<Toy> {
         this.weight = weight;
     }
 
+
     public void setWeight(int weight) {
 
         this.weight = weight;
     }
+
 
     public String getName() {
 
         return name;
     }
 
+
     public int getId() {
         return id;
     }
+
 
     public int getWeight() {
 
         return weight;
     }
 
+
     @Override
     public String toString() {
 
         return "Игрушка: " + name +  " с порядковым номером " + id;
     }
+
 
 
     @Override

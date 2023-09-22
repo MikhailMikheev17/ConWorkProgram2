@@ -11,6 +11,7 @@ import java.util.Random;
    Класс - имитация розыгрыша
 */
 
+
 public class ToyMachine implements ToyMachineInterface {
 
     private int id;
@@ -27,11 +28,13 @@ public class ToyMachine implements ToyMachineInterface {
         toys = new ArrayList<>();
     }
 
+
     @Override
     public void put(String name) {
         int weight = random.nextInt(100);
         toys.add(new Toy(++id, name, weight));
     }
+
 
     @Override
     public Toy getToy() {
@@ -50,15 +53,18 @@ public class ToyMachine implements ToyMachineInterface {
         }
         return null;
     }
+
     /*
       Метод перебора всех элементов коллекции Toy.
     */
+
     @Override
     public void getAllToys() {
         for (Toy toy : toys) {
             System.out.println(toy);
         }
     }
+
 
     @Override
     public void write(String name) {
@@ -69,6 +75,7 @@ public class ToyMachine implements ToyMachineInterface {
         }
 
     }
+
     @Override
     public void letsFun() {
         while (!participantQueue.isEmpty()) {

@@ -4,6 +4,8 @@ package org.example.model;
 /*
   Интерфейс
 */
+
+
 public interface ToyMachineInterface {
 
     void put(String name);

@@ -4,10 +4,10 @@ import java.util.Random;
 import java.util.PriorityQueue;
 
 
-/*
-  Класс, который представляет  собой очередь из участников.
-  Каждому участнику СЛУЧАЙНЫМ образом разыгрывается билет.
- */
+//Класс, который представляет  собой очередь из участников.
+//Каждому участнику СЛУЧАЙНЫМ образом разыгрывается билет.
+
+
 public class ParticipantQueue  {
 
     private int ticket;
@@ -20,7 +20,7 @@ public class ParticipantQueue  {
         random = new Random();
     }
 
-    public void addParticipant(String name) {participants.add(new Participant(random.nextInt(100), name)); }
+    public void addParticipant(String name) {participants.add(new Participant(random.nextInt(0,100), name)); }
 
     public boolean isEmpty() {
         return participants.isEmpty();

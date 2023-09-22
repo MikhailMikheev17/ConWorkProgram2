@@ -7,10 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-/*
-   Класс - имитация розыгрыша
-*/
-
+//Класс - имитация розыгрыша
 
 public class ToyMachine implements ToyMachineInterface {
 
@@ -54,10 +51,7 @@ public class ToyMachine implements ToyMachineInterface {
         return null;
     }
 
-    /*
-      Метод перебора всех элементов коллекции Toy.
-    */
-
+    //Метод перебора всех элементов коллекции Toy.
     @Override
     public void getAllToys() {
         for (Toy toy : toys) {

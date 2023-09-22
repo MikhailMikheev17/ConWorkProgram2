@@ -1,9 +1,8 @@
 package org.example.model;
 
 
-/*
-  Класс, который  представляет  собой участника розыгрыша.
- */
+//Класс, который  представляет  собой участника розыгрыша.
+
 public class Participant implements Comparable<Participant> {
 
     private String name;

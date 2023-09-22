@@ -1,9 +1,6 @@
 package org.example.model;
 
-/*
- Класс игрушка
- */
-
+//Класс игрушка
 
 public class Toy implements Comparable<Toy> {
 

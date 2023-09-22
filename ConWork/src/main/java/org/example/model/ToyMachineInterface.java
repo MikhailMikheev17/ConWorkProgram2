@@ -1,10 +1,7 @@
 package org.example.model;
 
 
-/*
-  Интерфейс
-*/
-
+//Интерфейс
 
 public interface ToyMachineInterface {
 
